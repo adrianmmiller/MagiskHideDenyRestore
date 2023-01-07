@@ -5,4 +5,4 @@ versionCode=11
 author=73sydney
 description=Restores items to MagiskHide List or Deny List from /sdcard/MagiskList.txt 
 support=
-updateJson=https://raw.githubusercontent.com/stylemessiah/MagiskHideDenyRestore/main/update.json
+updateJson=
