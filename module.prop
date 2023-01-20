@@ -1,8 +1,0 @@
-id=MagiskHideDenyRestore
-name=MagiskHideDenyRestore
-version=v1.1
-versionCode=11
-author=73sydney
-description=Restores items to MagiskHide List or Deny List from /sdcard/MagiskList.txt 
-support=
-updateJson=
