@@ -68,7 +68,7 @@ Please see: https://github.com/stylemessiah/MagiskHideDenyRestore/blob/main/CHAN
 
 ### Project Stats ###
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/stylemessiah/MagiskHideDenyRestore?label=Release&style=plastic)
-![GitHub Release Date](https://img.shields.io/github/release-date/stylemessiah/MagiskHideDenyRestore?label=Release%20Date&style=plastic)
-![GitHub Releases](https://img.shields.io/github/downloads/stylemessiah/MagiskHideDenyRestore/latest/total?label=Downloads%20%28Latest%20Release%29&style=plastic)
-![GitHub All Releases](https://img.shields.io/github/downloads/stylemessiah/MagiskHideDenyRestore/total?label=Total%20Downloads%20%28All%20Releases%29&style=plastic)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/adrianmmiller/MagiskHideDenyRestore?label=Release&style=plastic)
+![GitHub Release Date](https://img.shields.io/github/release-date/adrianmmiller/MagiskHideDenyRestore?label=Release%20Date&style=plastic)
+![GitHub Releases](https://img.shields.io/github/downloads/adrianmmiller/MagiskHideDenyRestore/latest/total?label=Downloads%20%28Latest%20Release%29&style=plastic)
+![GitHub All Releases](https://img.shields.io/github/downloads/adrianmmiller/MagiskHideDenyRestore/total?label=Total%20Downloads%20%28All%20Releases%29&style=plastic)
