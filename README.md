@@ -64,7 +64,7 @@ for this intent.**
 
 ### Changelog ###
 
-Please see: https://github.com/stylemessiah/MagiskHideDenyRestore/blob/main/CHANGELOG.md
+Please see: https://github.com/stylemessiah/MagiskHideDenyRestore/blob/main/changelog.md
 
 ### Project Stats ###
 
