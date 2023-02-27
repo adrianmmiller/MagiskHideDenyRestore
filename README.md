@@ -66,6 +66,16 @@ for this intent.**
 
 Please see: https://github.com/adrianmmiller/MagiskHideDenyRestore/blob/main/changelog.md
 
+---
+
+### **Related modules:**
+
+SuperuserListBackup: https://github.com/adrianmmiller/SuperuserListBackup
+
+SuperuserListRestore: https://github.com/adrianmmiller/SuperuserListRestore
+
+---
+
 ### Project Stats ###
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/adrianmmiller/MagiskHideDenyRestore?label=Release&style=plastic)
