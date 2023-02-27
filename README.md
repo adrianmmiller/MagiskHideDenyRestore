@@ -47,6 +47,8 @@ have to format data).
 
 The module will remain installed, unless removed, after the process completes.
 
+The only active file in the entire module is /common/install.sh, and it is commented.
+
 It is safe to leave installed and ignored if you like.
 
 Both modules should detect which magisk variety youre using by listing the magisk applets and finding either magiskhide, or not...
