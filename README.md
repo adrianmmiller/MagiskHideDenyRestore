@@ -1,9 +1,17 @@
 # MagiskHideDenyRestore
-A simple module to restore any apps you backed up, using the partner MagiskHideDenyBackup module, on new ROM flash
-
-Restore items from /sdcard/MagiskList.txt to MagiskHide List or Deny List
 
 *Inspired by osm0sis from XDA*
+
+A simple module to restore any apps you backed up, using the partner [MagiskHideDenyBackup module](https://github.com/adrianmmiller/MagiskHideDenyBackup), on new ROM flash
+
+Restores items from /sdcard/MagiskList.txt to MagiskHide List or Deny List
+
+**PLEASE NOTE:** 
+
+- We (myself, Osm0sis, ipdev and pndwal) all tried to get this backup and restore functionality added natively to Magisk Manager via Magisks's Github, lets just says it was rejected, so here we are...
+- These/There are **TWO** very discinct modules that work together, one backs up ([MagiskHideDenyBackup](https://github.com/adrianmmiller/MagiskHideDenyBackup)),
+and one restores ([MagiskHideDenyRestore](https://github.com/adrianmmiller/MagiskHideDenyRestore)). 
+You need **BOTH** modules. 
 
 For the terminally lazy (like me), ive created a couple of simple magisk modules to backup and restore the 
 packages and process you may have hidden via Magisk's MagiskHide (old magisk/custom) or Deny List (canary/alpha). 
@@ -19,35 +27,27 @@ So the way now (inspired by osm0sis from XDA) is to dump the list of packages an
 command to a text file and reimport it after a new ROM flash (assuming you have kept a copy off device if you do 
 have to format data).
 
+---
+#### **If you havent yet created your backup, please see the [MagiskHideDenyBackup Module Repo](https://github.com/adrianmmiller/MagiskHideDenyBackup) for the partner module to create your backup**
+---
 
-**MagiskHideDenyBackup Usage:**
+---
+## **MagiskHideDenyRestore Usage:**
+---
 
-	Install via Magisk Manager or Fox Module Manager
+1) Make sure /sdcard/MagiskList.txt exists and contains the packages and processes you want to hide/deny
+2) If youre using a Magisk version with MagiskHide, please make sure to enable it before continuing. 
+   Magisk with Deny List does not need to be enabled for restore to work
+3) Install MagiskHideDenyRestore module from Releases section via Magisk Manager or Fox Module Manager
 
-    - Backs up your magiskhide (or magisk deny) list to /sdcard/MagiskList.txt
-    - Writes a log file to /sdcard/MagiskHideDenyExport.log
-	
-	Copy /sdcard/MagiskList.txt off device for safe keeping
-	
-	The module will remain installed, unless removed, after the process completes.
-	It is safe to leave installed and ignored if you like. You can always flash it
-	again at any time to update /sdcard/MagiskList.txt 
-	
+	This:
+	- Restores your magiskhide (or magisk deny) list from /sdcard/MagiskList.txt
+	- Writes a log file to /sdcard/MagiskHideImportExport.log
+5) Reboot
 
-**MagiskHideDenyRestore Usage:**
+The module will remain installed, unless removed, after the process completes.
 
-	1) Make sure /sdcard/MagiskList.txt exists and contains the packages and processes you want to hide/deny
-	2) If youre using a Magisk version with MagiskHide, please make sure to enable it before continuing. 
-	   Magisk with Deny List does not need to be enabled for restore to work
-	3) Install via Magisk Manager or Fox Module Manager
-
-    - Restores your magiskhide (or magisk deny) list from /sdcard/MagiskList.txt
-    - Writes a log file to /sdcard/MagiskHideImportExport.log
-    
-    4) Reboot
-    
-    The module will remain installed, unless removed, after the process completes.
-    It is safe to leave installed and ignored if you like.
+It is safe to leave installed and ignored if you like.
 
 Both modules should detect which magisk variety youre using by listing the magisk applets and finding either magiskhide, or not...
 
